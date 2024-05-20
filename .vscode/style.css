@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+    background-image: url(bg-mobile.jpg) ;
+    background-size: cover;
+    background-position: center;  
+}
+h1{
+    padding: 10px;
+    margin: 10px;
+    color: whitesmoke;
+}
+#container{
+   
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 0px 24px;
+}
+img{
+    width: 120px;
+    
+}
+#profile{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#profile img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: white;
+    font-size: 20px;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px;
+    text-align: center;
+    
+    transition: background 0.2s;
+} 
+ul li a:hover{
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+#sociallinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#sociallinks a{
+
+    font-size: 24px;    
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    display: flex;
+    border-radius: 50%;
+}
+#sociallinks a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background 0.2s;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 8px;
+    padding: 16px;
+    font-weight: bolder;
+}
+footer a{
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    
+}
